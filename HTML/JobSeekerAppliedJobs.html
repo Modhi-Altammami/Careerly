@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Posted Jobs</title>
+    <link rel="StyleSheet" type="text/css" href="/CSS/JobSeekerAppliedJobs.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script>
+    </script>
+</head>
+
+<body>
+    <!--Header-->
+    <div id="container">
+        <div id="navContainer">
+            <img id="logo" src="/icons/logo.png" alt="logo">
+            <a href="/HTML/JobseekerHomePage.html" id="logoName">Careerly</a>
+            <ul id="navLinks">
+                <!-- <li><a href="/HTML/JobseekerHomePage.html">Home</a></li> -->
+                <li><a href="/HTML/JobSeekerAppliedJobs.html">Applied Jobs</a></li>
+                <li><a href="/HTML/AdvicesJobSeeker.html">Advices</a></li>
+                <li><a href="/HTML/PostedJobsJobSeeker.html">Posted Jobs</a></li>
+                <li><a href="/HTML/searchJobSeeker.html">Search</a></li>
+                <li><a href="/HTML/Home.html" id="SignOut">Sign out</a></li>
+                <!--The button-->
+            </ul>
+        </div>
+        <a href="/HTML/JobseekerProfile.html"><img id="Profile" src="/icons/profile.png" alt="Icon"></a>
+    </div>
+
+    <div id="Feed">
+        <span id="LatestJobs">Applied Jobs</span>
+    </div>
+    <div>
+        <hr id="JobLine">
+    </div>
+    <!--End Header-->
+    <div id="Block">
+        <div id=PostedJobsBlock>
+            <div>
+                <img class="Avatar" src="/icons/SWE.png" alt="Avatar">
+                <p class="JobName">Software Analyst</p>
+                <p class="Align">
+                    <img class="icons" src="/icons/placeholder.png" alt="Place">
+                    <span>riyadh</span>
+                </p>
+                <p class="Align">
+                    <img class="icons" src="/icons/clock.png" alt="clock">
+                    <span>Full time</span>
+                </p>
+                <p class="Align">
+                    <img class="icons" src="/icons/status.png" alt="clock">
+                    <span>Status: </span>
+                    <span class="Accepted">Accepted</span>
+                    <span> <a class="checkdetails" href="/HTML/JobDetailsJobSeeker.html">check details</a> </span>
+                </p>
+                <hr>
+
+                <form method="POST" action="#">
+                    <h3 class="Interview">Please Select your appropriate interview appointment:</h3>
+                    <input class="Dates" type="radio" name="Date" value="Date">
+                    <label>3:30 PM ,20 / 2 / 2021 </label><br>
+                    <input class="Dates" type="radio" name="Date" value="Date">
+                    <label>3:30 PM ,4 / 2 / 2021</label><br>
+                    <input class="Dates" type="radio" name="Date" value="Date">
+                    <label>3:30 PM ,01 / 3 / 2021</label><br>
+                    <input type="submit" class="ConfirmDate" value="Confirm">
+                </form>
+                <button class="RejectButton">Reject</button>
+            </div>
+
+            <div>
+                <img class="Avatar" src="/icons/database.png" alt="Avatar">
+                <p class="JobName">Database Admin</p>
+                <p class="Align">
+                    <img class="icons" src="/icons/placeholder.png" alt="Place">
+                    <span>riyadh</span>
+                </p>
+                <p class="Align">
+                    <img class="icons" src="/icons/clock.png" alt="clock">
+                    <span>Full time</span>
+
+                </p>
+
+                <p class="Align">
+                    <img class="icons" src="/icons/status.png" alt="clock">
+                    <span>Status: </span>
+                    <span class="Pending">Pending</span>
+                    <span> <a class="checkdetails" href="/HTML/JobDetailsJobSeeker.html">check details</a> </span></p>
+                <hr>
+                <button id="RejectButtonWhenPending" class="RejectButton">Reject</button>
+            </div>
+
+            <div>
+                <img class="Avatar" src="/icons/SWE.png" alt="Avatar">
+                <p class="JobName">UX/UI Designer</p>
+                <p class="Align">
+                    <img class="icons" src="/icons/placeholder.png" alt="Place">
+                    <span>riyadh</span>
+                </p>
+                <p class="Align">
+                    <img class="icons" src="/icons/clock.png" alt="clock">
+                    <span>Full time</span>
+                </p>
+
+                <p class="Align">
+                    <img class="icons" src="/icons/status.png" alt="clock">
+                    <span>Status: </span>
+                    <span class="Rejected">Rejected</span>
+                    <span> <a class="checkdetails" href="/HTML/JobDetailsJobSeeker.html">check details</a> </span> </p>
+                <hr>
+            </div>
+        </div>
+
+    </div>
+
+</body>

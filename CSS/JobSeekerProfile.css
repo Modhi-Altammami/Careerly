@@ -1,0 +1,292 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+      }
+
+
+      /*The background image, I used psuedo class to adjust
+    the background image opacity without effecting the body
+    element */
+      body::before{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        content: ' ';
+        background-image: url("/icons/BlueBackground.jpg");
+        background-size:cover;
+        background-attachment: fixed;
+        background-repeat: repeat;
+        opacity: 0.4;
+        z-index: -1;
+    }
+  
+   #container{
+     width: 1300px;
+     height: 130px; 
+     background: #BED3E4;
+     border-bottom-right-radius: 40px;
+     align-items: center;
+     display: flex; }
+     
+     
+    #navContainer{
+        margin-top: -15px;
+        width: 1200px;
+        height: 115px;
+        background-color: #5E85A6;
+        border-bottom-right-radius: 40px;
+        display: flex;
+        align-items: center;
+      }
+    
+      #logo{
+         width: 78px;
+         height: 68px;
+         margin-left: 21px;
+      }
+    
+      #navLinks{
+        list-style-type: none;
+        margin-left: 30px;
+      }
+      #navLinks li{
+        display: inline;
+      }
+    
+    
+      #logoName{
+        display: inline;
+        color: white;
+        margin-left: 10px;
+        font-size: 35px;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      
+      #navLinks{
+        margin-left: auto;
+        margin-right: 18px;
+      }
+    
+    
+    
+      #navLinks li a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px; 
+        padding-bottom: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+      #navLinks li a:hover{
+        background-color: #BED3E4;
+        border-radius: 15px;
+      }
+    
+       #SignOut{
+        background: #FF4958;
+        border-radius: 15px;
+       }
+    
+       #Profile{
+        margin-left: 10px;
+        width: 50px;
+        height: 50px;
+        padding: 15px;
+        border-radius: 15px;
+       }  
+       
+       #Profile:hover{
+         background-color: #a6d0f3;
+         
+       }
+        /*END NAV*/
+        
+
+       
+        #Icon{
+            width: 174px;
+            height: 174px; 
+            margin-top: 100px;
+            margin-left: 100px; 
+            
+        }
+
+        #EditIcon {
+          position: absolute;
+          background-color: Transparent;
+           background-repeat:no-repeat;
+           border: none;
+           cursor:pointer;
+           overflow: hidden;
+           outline:none; 
+           color: rgb(143, 141, 141);
+           margin-left: -120px;
+           margin-top: 250px;
+           border-radius: 15px;
+        }
+        #EditIcon:hover{
+          background-color: #979797;
+          color: white;
+        }
+
+        #PrivateAcc{
+            position: absolute;
+            font-size: 18px;
+            margin-top: 350px;
+            margin-left: -250px;
+        }
+
+        /*Make a toggle button*/
+        #Toggle{
+          position: absolute;
+              -webkit-appearance: none;
+              outline: none;
+              width: 80px;
+              height: 40px;
+              background-color: rgb(3, 250, 36);
+              border-radius: 50px;
+              margin-top: 340px; 
+              margin-left: -50px;}
+
+              #Toggle::before{
+                position:absolute;
+                height: 40px;
+                width: 40px;
+                content: "";
+                border-radius: 50px;
+                background-color: rgb(255, 255, 255);
+              }
+              #Toggle:checked{
+                background-color: silver;
+              }
+
+              #Toggle:checked::before{
+                transform: translate(100%);
+              }
+
+              /*End Make a toggle button*/
+
+
+        #WarningAcc{
+            position: absolute;
+            font-size: 12px;
+            color: #ffffff;
+            margin-left: 30px;
+            margin-top: 110px;
+            border-radius: 50px;
+            
+        }
+
+
+        #DeleteProfile {
+             position: absolute;
+             border-color:  #ee3636;
+             color: white;
+             padding: 5px;
+             background-color: #ee3636;
+             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+             cursor:pointer;
+
+             margin-left: -130px;
+             margin-top: 490px;
+
+
+        }
+
+        #DeleteProfile :hover{
+            background-color: #d30909;
+       }
+
+       #Warning{
+        position: absolute;      
+        font-size: 12px;
+        color: #ffffff;
+        margin-top: 250px;
+        margin-left: 50px;
+
+       }
+
+
+       /*End avatar block*/
+       /*Info block*/
+
+
+       #AllBlock form{
+        margin-top: -250px;
+       }
+
+
+       #InfoBlock{
+           background-color:white;
+           width: 900px;
+           height: 500px;
+           margin-left: 400px;
+           border-radius: 30px;
+           border-color: #5E85A6;
+           border-style:solid;
+           border-width:5px;  
+           border-color:#5E85A6;
+       }
+
+
+       #InfoBlock p{
+           font-size: 20px;
+           margin-left: 15px;
+       }
+
+       .ProfileLine{
+           display: flex;
+           width: 75%;
+           margin-left: 5px;
+       }
+
+
+       #InfoBlock {
+        margin-top: -300px;
+      }
+
+       #InfoBlock span{
+         position: relative;
+          margin-left: 40px;
+          margin-bottom: 15px;
+
+       }
+
+
+       
+
+       #InfoBlock input{
+           position:relative;
+           margin-right: 148px;
+           margin-bottom: 15px;
+           
+       }
+
+       #Descrip{
+           margin-right: 120px;
+       }
+
+
+       #ChangePassword input{
+        margin-right: 130px
+       }
+
+       /*End Info block*/
+
+
+       .Buttons{
+        left: 500px;
+        top:30px;
+        width: 10%;
+       
+    }
+       

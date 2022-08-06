@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pick Appointment</title>
+        <link rel="stylesheet" href="/CSS/PickAppointmentEmployer.css">
+         <!-- FROM GOOGLE FONTS  -->
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+ <!-- Employer's Navigation Bar -->
+ <div id="container">
+    <div id="navContainer">
+        <img id="logo" src="/icons/logo.png" alt="logo">
+        <a href="/HTML/EmployerHomePage.html" id="logoName">Careerly</a>
+        <ul id="navLinks">
+            <li><a href="/HTML/EmployerHomePage.html">Home</a></li>
+            <li><a href="/HTML/AdvicesEmployer.html"> My Advices</a></li>
+            <li><a href="/HTML/EmployerPostedJobs.html">Posted Jobs</a></li>
+            <li><a href="/HTML/searchEmployer.html">Search</a></li>
+            <li><a href="/HTML/Home.html" id="SignOut">Sign out</a></li> <!--The button-->
+        </ul>
+    </div>
+    <a href="/HTML/EmployerProfile.html"><img id="Profile" src="/icons/profile.png" alt="Icon"></a> 
+</div>
+<!-- END of Employer's Navigation Bar -->
+
+        <div id="Rectangle">
+            <h2> Pick Appointment </h2>
+            <form id="Appointment_Container">
+                <label for="appointment">Pick Appointment :</label>
+                <input type="date" id="Appointment_Input" name="appointment">
+                <input id="Submit_Button" type="submit">
+            </form>
+        </div>
+    </body>
+</html>

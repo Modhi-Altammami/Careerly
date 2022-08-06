@@ -1,0 +1,86 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">   
+        <title>Manage Profile</title>
+        <link rel="StyleSheet" type="text/css" href="/CSS/EmployerProfile.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">   
+    </head>
+
+    <body>
+      <div id="container">
+        <div id="navContainer">
+            <img id="logo" src="/icons/logo.png" alt="logo">
+            <a href="/HTML/EmployerHomePage.html" id="logoName">Careerly</a>
+            <ul id="navLinks">
+                <li><a href="/HTML/EmployerHomePage.html">Home</a></li>
+                <li><a href="/HTML/AdvicesEmployer.html"> My Advices</a></li>
+                <li><a href="/HTML/EmployerPostedJobs.html">Posted Jobs</a></li>
+                <li><a href="/HTML/searchEmployer.html">Search</a></li>
+                <li><a href="/HTML/Home.html" id="SignOut">Sign out</a></li> <!--The button-->
+            </ul>
+        </div>
+        <a href="/HTML/EmployerProfile.html"><img id="Profile" src="/icons/profile.png" alt="Icon"></a> 
+    </div>
+
+        <div  id="AllBlock">
+
+             <div >
+             <img id="Icon" src="/icons/WomanAvatar3.png" alt="Icon">
+             <button id="EditIcon">Edit Icon</button>
+             <button id="DeleteProfile">Delete profile</button>
+             <p id="Warning">Deleting Profile will remove all previous Information</p>
+             </div>
+
+             <form id="InfoBlock" method="POST" action="#">
+                <p>Biography</p>
+                <hr class="ProfileLine">
+                   <div id="InfoBlock1">
+                     <span >Full name: </span>
+                     <input type="text" value="Modhi Altammami" >
+                     <span >Address:</span>
+                     <input type="text" value="Riyadh" class="InputField">
+                     <span id="Email">Email:</span>
+                     <input type="text" value="Modhi@gmail.com" >
+                     <span id="Pnumber">Phone number:</span>
+                     <input type="text" value="1233930830" class="InputField">
+                   </div>
+                   <p>Institution</p>
+                   <hr class="ProfileLine">
+                   
+                   <div id="InfoBlock2">
+                    <span >Company name: </span>
+                    <input type="text" value="SWE"  >
+                    <span id="Scope" >Scope:</span>
+                    <input type="text" value="Riyadh" >
+                    <span>Description:</span>
+                    <textarea class="TextAreaLabels" rows="3" cols="25" placeholder="Descripe your company" ></textarea>
+                    <span >vision:</span>
+                    <textarea class="TextAreaLabels" rows="3" cols="25" placeholder="Descripe your mission vision"></textarea>
+                  </div>
+              
+                  <p id="PasswordSection">Password</p>
+                   <hr id="ProfileLine">
+
+                  <div id="ChangePassword">
+                    <span >Old Password:</span>
+                    <input type="password" id="Oldpass" name="password"
+                    minlength="8"  >
+                    <span >Old Password:</span>
+                    <input type="password" id="Newpass" name="password"
+                    minlength="8" >
+                  </div>
+               
+                  <input type="reset" class="Buttons" value="Reset"> 
+                  <input type="submit" class="Buttons" value="Save">
+             </form>
+
+        </div>
+ 
+
+       <!--End Header-->
+
+
+
+</html>

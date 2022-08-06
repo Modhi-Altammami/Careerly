@@ -1,0 +1,219 @@
+/* Navigation Bar */
+#container{
+    width: 1300px;
+    height: 130px; 
+    background: #BED3E4;
+    border-bottom-right-radius: 40px;
+    align-items: center;
+    display: flex; }
+    
+    
+   #navContainer{
+       margin-top: -15px;
+       width: 1200px;
+       height: 115px;
+       background-color: #5E85A6;
+       border-bottom-right-radius: 40px;
+       display: flex;
+       align-items: center;
+     }
+   
+     #logo{
+        width: 78px;
+        height: 68px;
+        margin-left: 21px;
+     }
+   
+     #navLinks{
+       list-style-type: none;
+       margin-left: 30px;
+     }
+     #navLinks li{
+       display: inline;
+     }
+   
+   
+     #logoName{
+       display: inline;
+       color: white;
+       margin-left: 10px;
+       font-size: 35px;
+       font-weight: bold;
+       text-decoration: none;
+     }
+     
+     #navLinks{
+       margin-left: auto;
+       margin-right: 18px;
+     }
+   
+   
+   
+     #navLinks li a{
+       text-decoration: none;
+       color: white;
+       font-size: 18px;
+       font-weight: bold;
+       padding-left: 15px;
+       padding-right: 15px;
+       padding-top: 15px; 
+       padding-bottom: 15px;
+       margin-left: 10px;
+       margin-right: 10px;
+   }
+   
+     #navLinks li a:hover{
+       background-color: #BED3E4;
+       border-radius: 15px;
+     }
+   
+      #SignOut{
+       background: #FF4958;
+       border-radius: 15px;
+      }
+   
+      #Profile{
+       margin-left: 10px;
+       width: 50px;
+       height: 50px;
+       padding: 15px;
+       border-radius: 15px;
+      }  
+      
+      #Profile:hover{
+        background-color: #a6d0f3;
+        
+      }
+  
+
+/* End of Navigation Bar */
+
+      body{
+        /* background from https://www.freepik.com/free-vector/modern-web-banner-with-diagonal-lines-background_6080519.htm#page=1&query=website%20background%20&position=3 */
+        background-image: url(/icons/AdvicesBackground.jpg);
+        background-color: powderblue;
+        background-attachment: fixed;
+        margin: 0px; 
+        padding: 0px;
+        font-family: 'Noto Sans JP', sans-serif;     /* from google fonts */
+        color: #474668;
+      }
+
+      #Rectangle{ /* The rectangle container that contains all info */
+        
+        display: flex;
+        height: 900px;
+        width: 900px;
+        margin-left: 200px;
+        margin-top: 100px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        padding-right: 150px;
+        padding-top: 150px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        top: 100px;
+        background-color: #F7F7F7;
+        border-radius: 60px 60px 0px 0px;
+        border-top: 7px solid #5E85A6;
+        border-left: 7px solid #5E85A6;
+        border-right: 7px solid #5E85A6;
+    }
+
+   /* company logo setted to left and border radius setted to 60px to make it circular */
+
+      #companyLogo{
+        position: relative;
+        float: left;
+        bottom: 120px;
+        left: 20px;
+        height: 100px;
+        width: 100px;
+        border-radius: 60px 60px 60px 60px;
+        margin:0px
+    }
+      #jobTitle{
+        position: relative;
+        /* white-space property makes the text appear in one line */
+        white-space: nowrap;
+        left: 70px;
+        width: 400px;
+        height: 350px;
+        bottom: 140px;
+        font-size: 30px;
+        margin-bottom: 40px;
+        margin-right: 0px;
+        padding: 0px;        
+    }
+      #jobInfo{
+          margin: 0px;
+      }
+      /* span element containing the category name  */
+      .Category{
+        font-weight: bold;
+    }
+      .infoCategories{
+        position: relative;
+        width: 800px;
+        padding: 5px 0px 5px 5px;
+        right: 200px;
+        text-align: left;
+        margin: 0px;
+      }
+      /* for the nested unordered list */
+      .subInfo{
+        left:2%;
+      }
+      #Apply_Button{
+        position: relative;
+        width: 30px;
+        height: 25px;
+        right: 60%;
+        top: 90%;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 15px;
+        padding-bottom: 30px;
+        color: #F7F7F7;
+        font-weight: bolder;
+        background-color: #FF4958;
+        font-size: 15px;
+        /* text-align: center; */
+        text-decoration: none;
+        /* shadow effect was designed in figma  */
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        border: none;
+        margin: 0px;
+      }
+      #Apply_Button:hover{
+        background-color: #ce3c48;
+        text-decoration: underline;
+      }
+      #View_Profile_Button{
+        position: relative;
+        width: 30px;
+        height: 25px;
+        right: 35%;
+        top: 810px;
+        padding-left: 18px;
+        padding-right: 70px;
+        padding-top: 13px;
+        padding-bottom: 7px;
+        margin: 0px;
+        font-size: 13px;
+        color: #F7F7F7;
+        font-weight: bolder;
+        white-space: nowrap;
+        background-color: #FF4958;
+        font-size: 15px;
+        text-align: center;
+        text-decoration: none;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        border: none;
+      }
+      #View_Profile_Button:hover{
+        background-color: #ce3c48;
+        text-decoration: underline;
+      }

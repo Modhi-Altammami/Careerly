@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="/CSS/Login.css">
+        <link rel="icon" href="/icons/logoIcon.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--Nav Bar-->
+        <div id="container">
+            <div id="navContainer">
+                <img id="logo" src="/icons/logo.png" alt="logo photo">
+                <!-- <h3 id="logoName">Careerly</h3> -->
+                <a href="/HTML/Home.html" id="logoName">Careerly</a>
+                <ul id="navLinks">
+                    <li><a href="/HTML/PostedJobsVisitor.html">Posted Jobs</a></li>
+                    <li><a href="/HTML/AdvicesVisitor.html">Advices</a></li>
+                    <li><a href="/HTML/searchVisitor.html">Search</a></li>
+                    <li><a href="/HTML/Login.html">Login</a></li>
+                    <li><a href="/HTML/signupEmployer.html" id="joinUs">Join Us</a></li>  
+                </ul>
+            </div>
+        </div>
+        <!--End Of Nav Bar-->
+        <!-- Right Pannel -->
+        <img id="image" src="/icons/work.png" alt="work image">
+        <div id="background">
+            <h1 id="login">Login</h1>
+            <div id="parent">
+                <div id="child">
+                    <div id="loginInfo">
+                        <form action="#">
+                            <div class="devider">
+                                <label class="label" for="userName">Username</label>
+                                <input class="textInput" type="text">
+                            </div>
+                            <div class="devider">
+                                <label class="label" for="password">Password</label>
+                                <input class="textInput" type="text">
+                                <a id="forgot" href="#">Forgot My Password</a>
+                            </div>
+                            <div class="devider">
+                                <label class="label" for="accType">Account Type</label>
+                                <select class="select" name="accountType" id="accountType">
+                                <option value="employer">Employer</option>
+                                <option value="job-seeker">Job-seeker</option>
+                                <option value="admin">Admin</option>
+                            </select>
+                            </div>
+                            <input id="button" type="button" value="Login">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Left Pannel -->
+        <div id="leftPannel">
+            <div id="first"></div>
+            <div id="second"></div>
+            <img id="shape" src="/icons/shape.png" alt="shape image">
+
+        </div>
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Post New Job</title>
+        <link rel="stylesheet" href="/CSS/PostNewJobStylesEmployer.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+    <!-- Employer's Navigation Bar -->
+    
+    <div id="container">
+        <div id="navContainer">
+            <img id="logo" src="/icons/logo.png" alt="logo">
+            <a href="/HTML/EmployerHomePage.html" id="logoName">Careerly</a>
+            <ul id="navLinks">
+                <li><a href="/HTML/EmployerHomePage.html">Home</a></li>
+                <li><a href="/HTML/AdvicesEmployer.html"> My Advices</a></li>
+                <li><a href="/HTML/EmployerPostedJobs.html">Posted Jobs</a></li>
+                <li><a href="/HTML/searchEmployer.html">Search</a></li>
+                <li><a href="/HTML/Home.html" id="SignOut">Sign out</a></li> <!--The button-->
+            </ul>
+        </div>
+        <a href="/HTML/EmployerProfile.html"><img id="Profile" src="/icons/profile.png" alt="Icon"></a> 
+    </div>
+    <!-- END of Employer's Navigation Bar -->
+    
+        <div id="Rectangle">
+            <h3>Post New Job</h3>
+            <div id="formContainer"> 
+            <form>
+                <label class="Category"> 
+                    Job Title : 
+                    <input name="JobTitle" type="text" size="40" required>
+                </label>
+
+                <label class="Category"> 
+                    Major : 
+                    <input id="MajorInput" name="Major" type="text" size="40" required>
+                </label>
+
+                <label class="Category"> 
+                    Position : 
+                    <input id="PositionInput" name="Position" type="text" size="40" required>
+                </label>
+
+                <label class="Category"> 
+                    Location : 
+                    <input id="LocationInput" name="Location" type="text" size="40" required>
+                </label>
+
+                <label class="Category">
+                    Employment Type : 
+                    <input class="noShadow"  type="radio" name="type" value="part-time" required>
+                    <label class="radio" for="part-time">Part-Time</label>
+                    <input class="noShadow" type="radio" name="type" value="full-time" required>
+                    <label class="radio" for="full-time">Full-Time</label>
+                </label>
+
+                <label class="Category">
+                    Gender : 
+                    <input class="noShadow" type="radio" name="gender" value="male" required>
+                    <label class="radio" for="male">Male</label>
+                    <input class="noShadow" type="radio" name="gender" value="female" required>
+                    <label class="radio" for="female">female</label>
+                    <input class="noShadow" type="radio" name="gender" value="All" required>
+                    <label class="radio" for="All">All</label>
+                </label>
+
+                <label class="Category"> 
+                    Salary Starts from : 
+                    <input id="Salary_Input" name="Salary" type="text" size="40" required>
+                </label>
+             
+                <label id="Job_Description_Category"> 
+                    Job Description : 
+                    <textarea id="JD_textArea" name="jd" rows="6" cols="50" required > </textarea>
+                </label>
+
+                <label id="Req_skills_Category"> 
+                    Required Skills : 
+                    <textarea id="RS_textArea" name="rs" rows="6" cols="50" required > </textarea>
+                </label>
+
+                <label id="Req_Qualifications_Category"> 
+                    Required Qualifications : 
+                    <textarea id="RQ_textArea" name="rq" rows="6" cols="50" required > </textarea>
+                </label>
+
+                <input id="submit_Button" type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+    </body>
+</html>
+

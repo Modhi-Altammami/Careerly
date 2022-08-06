@@ -1,0 +1,162 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home page</title>
+    <link rel="StyleSheet" type="text/css" href="/CSS/EmployerHomePage.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!--Header-->
+    <div id="container">
+        <div id="navContainer">
+            <img id="logo" src="/icons/logo.png" alt="logo">
+            <a href="/HTML/index.html" id="logoName">Careerly</a>
+            <ul id="navLinks">
+                <li><a href="/HTML/EmployerHomePage.html">Home</a></li>
+                <li><a href="/HTML/AdvicesEmployer.html"> My Advices</a></li>
+                <li><a href="/HTML/EmployerPostedJobs.html">Posted Jobs</a></li>
+                <li><a href="/HTML/searchEmployer.html">Search</a></li>
+                <li><a href="/HTML/Home.html" id="SignOut">Sign out</a></li>
+                <!--The button-->
+            </ul>
+        </div>
+        <a href="/HTML/EmployerProfile.html"><img id="Profile" src="/icons/profile.png" alt="Icon"></a>
+    </div>
+
+    <h1 id="Welcome">WELCOME MODHI ALTAMMAMI</h1>
+
+
+    <!--Dummy Data-->
+    <div id="ALLBLOCKS">
+        <div class="FirstBlocks">
+            <div id="Feed">
+                <span id="Advice">Advice Feed</span>
+                <span id="Add"><a href="/HTML/AddNewAdvice.html">+ Add new advice </a> </span>
+
+            </div>
+
+            <div>
+                <hr id="AdviceLine">
+
+            </div>
+
+            <!--Advice Feed-->
+
+            <div id=AdviceBlock>
+                <div>
+                    <p>2020-12-30 <button class="delete_button" type="button" name="delete" formtarget="_self"> </button></p>
+                    <p class="AdviceP">Life’s too short to be stuck in a job you hate</p>
+                    <img class="like" src="/icons/Like-green.png" alt="Like">
+                    <span>10</span>
+                    <img class="dislike" src="/icons/DisLike-red.png" alt="dislike">
+                    <span>1</span>
+
+                </div>
+
+                <div>
+                    <p>2021-1-30 <button class="delete_button" type="button" name="delete" formtarget="_self"> </button> </p>
+                    <p class="AdviceP">If the career you have chosen has some unexpected inconvenience, console yourself by reflecting that no career is without them</p>
+                    <img class="like" src="/icons/Like-green.png" alt="Like">
+                    <span>12
+                    <img class="dislike" src="/icons/DisLike-red.png" alt="dislike">
+                    2</span>
+
+                </div>
+                <div>
+                    <p>2021-1-30 <button class="delete_button" type="button" name="delete" formtarget="_self"> </button> </p>
+                    <p class="AdviceP">If the career you have chosen has some unexpected inconvenience, console yourself by reflecting that no career is without them</p>
+                    <img class="like" src="/icons/Like-green.png" alt="Like">
+                    <span>12
+                    <img class="dislike" src="/icons/DisLike-red.png" alt="dislike">
+                    2</span>
+
+                </div>
+                <div>
+                    <p>2021-1-30 <button class="delete_button" type="button" name="delete" formtarget="_self"> </button> </p>
+                    <p class="AdviceP">Don’t sweat it. Don’t beat yourself up about it. It’ll probably be scary or uncomfortable, but you always get to make a new choice if this one doesn’t work out</p>
+                    <img class="like" src="/icons/Like-green.png" alt="Like">
+                    <span>12
+                    <img class="dislike" src="/icons/DisLike-red.png" alt="dislike">
+                    2</span>
+
+                </div>
+
+            </div>
+        </div>
+        <!--  Advice feed blocks Ended-->
+        <!--First Block Ended-->
+
+        <!--What's New and Posted job blocks-->
+        <div id="SecondBlock">
+            <!--Notification-->
+            <span id="Notification">What's New</span>
+            <hr id="WhatNewLine">
+
+            <div id="NotifsBlock">
+
+                <div class="JobDisc">
+                    <img class="Avatars" src="/icons/ManIcon2.png" alt="Avatar">
+                    <p>James.F Just Applied to Software Engineer job</p>
+                    <a href="/HTML/EmployerPostedJobs.html" class="checkdetails">Check Details</a>
+                </div>
+
+                <div class="JobDisc">
+                    <img class="Avatars" src="/icons/AvatarIcon1.png" alt="Avatar">
+                    <p>James.F Just Applied to Software Engineer job</p>
+                    <a href="/HTML/EmployerPostedJobs.html" class="checkdetails">Check Details</a>
+                </div>
+                <div class="JobDisc">
+                    <img class="Avatars" src="/icons/ManIcon2.png" alt="Avatar">
+                    <p>James.F Just Applied to Software Engineer job</p>
+                    <a href="/HTML/EmployerPostedJobs.html" class="checkdetails">Check Details</a>
+                </div>
+            </div>
+
+            <!--Posted Jobs-->
+
+            <span id="PostedJob"> Posted Jobs</span>
+            <span class="Viewall"><a href="/HTML/EmployerPostedJobs.html">+ View All jobs</a></span>
+            <hr id="PostedJobsLine">
+
+            <div id="PostedJobBlock">
+                <div id="SoftwareEngineer">
+                    <img class="job" src="/icons/SWE.png" alt="SWE">
+                    <p>Software Analyst</p>
+                    <p class="IconJob">
+                        <img class="placeholder" src="/icons/placeholder.png" alt="Place">
+                        <span>riyadh</span>
+                    </p>
+                    <img class="clock" src="/icons/clock.png" alt="worktime">
+                    <span>Full time</span>
+                    <p><a class="EditJob" href="/HTML/EditPostedJobEmployer.html">Edit Job Details</a></p>
+                </div>
+
+                <div id="Database">
+                    <img class="job" src="/icons/database.png" alt="SWE">
+                    <p>Database Admin</p>
+                    <p class="IconJob">
+                        <img class="placeholder" src="/icons/placeholder.png" alt="Place">
+                        <span>riyadh</span>
+                    </p>
+
+                    <img class="clock" src="/icons/clock.png" alt="worktime">
+                    <span>part time</span>
+                    <p><a class="EditJob" href="/HTML/EditPostedJobEmployer.html">Edit Job Details</a></p>
+
+
+                </div>
+            </div>
+
+        </div>
+        <!--Second Block Ended-->
+    </div>
+
+</body>
+
+</html>

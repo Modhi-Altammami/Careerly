@@ -1,0 +1,186 @@
+/* style for all the body of the html page*/
+body{
+
+   margin: 0%;
+   padding: 0%;
+   width: 100%;
+   height:100%;
+   background-color: white;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-image:url("/icons/work\ 2.png") ;/*the backround pic*/
+   font-family:'Noto Sans JP', sans-serif;
+
+
+
+}/* the start of the nav bar*/
+#container{
+ 
+    width: 1300px;
+    height: 130px; 
+    background: #BED3E4;
+    border-bottom-right-radius: 40px;
+    align-items: center;
+    display: flex; }
+    
+    
+   #navContainer{
+       margin-top: -15px;
+       width: 1200px;
+       height: 115px;
+       background-color: #5E85A6;
+       border-bottom-right-radius: 40px;
+       display: flex;
+       align-items: center;
+     }
+   
+     #logo{
+        width: 78px;
+        height: 68px;
+        margin-left: 21px;
+     }
+   
+     #navLinks{
+       list-style-type: none;
+       margin-left: 30px;
+     }
+     #navLinks li{
+       display: inline;
+     }
+   
+   
+     #logoName{
+       display: inline;
+       color: white;
+       margin-left: 10px;
+       font-size: 35px;
+       font-weight: bold;
+       text-decoration: none;
+     }
+     
+     #navLinks{
+       margin-left: auto;
+       margin-right: 18px;
+     }
+   
+   
+   
+     #navLinks li a{
+       text-decoration: none;
+       color: white;
+       font-size: 18px;
+       font-weight: bold;
+       padding-left: 15px;
+       padding-right: 15px;
+       padding-top: 15px; 
+       padding-bottom: 15px;
+       margin-left: 10px;
+       margin-right: 10px;
+   }
+   
+     #navLinks li a:hover{
+       background-color: #BED3E4;
+       border-radius: 15px;
+     }
+   
+      #SignOut{
+       background: #FF4958;
+       border-radius: 15px;
+      }
+   
+      #Profile{
+       margin-left: 10px;
+       width: 50px;
+       height: 50px;
+       padding: 15px;
+       border-radius: 15px;
+      }  
+      
+      #Profile:hover{
+        background-color: #a6d0f3;
+        
+      }/*end of the nav bar*/
+
+/* the first border that contain all the element*/
+#site{ 
+  font-weight: bold;       
+     width: 700px;
+     margin-right: 10%;
+     border-style:  solid;
+     border-color: #4D6B85;
+     background: #FFFFFF ;
+     border-radius: 53px;
+     margin-top: 120px;
+     margin-bottom: 10%;
+     margin-left: 380px;
+     margin-right: 25%;
+}
+/* style for the first div*/
+#first{
+
+    width: 60%;
+    height: 30px;
+    margin-top: 7%;
+    margin-left: 7%;
+    font-weight: bold;
+    font-size: 24px;
+    color: #4D6B85;
+
+}
+
+
+/* style for the name div which contain the name of the company*/
+#name{
+   font-weight: bold;
+   width: 650px;
+   height: 49px;
+   margin-left: 7%;
+   margin-top: 10%;
+   display: inline-flex;
+   font-size: 20px;
+   line-height: 30px;
+   text-align: center;
+   word-spacing: 10px;
+   color: #8B8787;
+
+}
+
+/* style for the hr line*/
+hr{
+    
+    width:70%;
+    height:0.001px;
+    margin-left: 6.5%;
+    margin-top: 1%;
+    margin-right: 6.5%;
+    border: 1px solid rgba(23, 53, 94, 0.5);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+/* style for the list of employers*/
+#context{
+
+    width: 600px;
+    font-size: 18px;
+    margin-top: 0.5%;
+    margin-left: 7%;
+    text-align: left;
+    word-spacing: 5px;
+    color: #8B8787;
+
+}
+/* style for all the button with the class name View*/
+.View{ 
+   position: relative;
+   top: -1.8em;/* to make the button go up a little*/
+   color: white;
+   background: #FF4958;
+   border-radius: 15px;
+   width: 90px;
+   display: block;
+   margin-left: 50%;
+   padding: 10px 10px;
+   font-size: 15px;
+   text-decoration: none;
+font-weight: normal;
+}/* end of the CSS file*/

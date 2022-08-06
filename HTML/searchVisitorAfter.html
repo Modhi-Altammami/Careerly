@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Search - visitor
+        </title>
+        <link rel="stylesheet" type="text/css" href="/CSS/searchVisitorAfter.css" >
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+       <link rel="icon" href="/icons/logoIcon.png">
+    </head>
+    
+    <body>
+        <div>
+                    <!--Nav Bar-->
+                    <div id="container">
+                        <div id="navContainer">
+                            <img id="logo" src="/icons/logo.png" alt="logo photo">
+                            <a href="/HTML/Home.html" id="logoName">Careerly</a>
+                            <ul id="navLinks">
+                                <li><a href="/HTML/PostedJobsVisitor.html">Posted Jobs</a></li>
+                                <li><a href="#">Advices</a></li>
+                                <li><a href="/HTML/searchVisitor.html">Search</a></li>
+                                <li><a href="/HTML/Login.html">Login</a></li>
+                                <li><a href="/HTML/signupEmployer.html" id="joinUs">Join Us</a></li>
+                            </ul>
+                            <input id="searchBar" type="text" placeholder=" Search job or employer....." > 
+                            <p id="keyword" > start with a keyword! </p>
+                        </div>
+                    </div>
+                    <!--End Of Nav Bar-->
+
+
+        <!-- search results -->
+
+        <!-- first job -->
+        <div class="rectangle" >
+                <div>
+                    <img class="circle" src="/icons/telephone.png" alt="telephone photo"> 
+                    <span class="title" > Customer Service Representative </span>  </div>
+                <div id="location"> 
+                    <img class="pin" src="/icons/pin.png" alt="pin icon">
+                    <span> Riyadh </span></div>
+                    <span class="company"> Sellah Solutions Co.</span>
+                <div>
+                    <img class="clock" src="/icons/clock.png" alt="clock photo">
+                    <span> Full time </span>
+                </div>
+                <div class="details"> 
+                    <p class="viewDetails" >view details</p>
+            </div>
+        </div>
+        <!-- second job -->
+        <div class="rectangle" >
+            <div>
+             <img class="circle" src="/icons/airplane (1).png" alt="airplane photo"> 
+             <span class="title" > Flight Attendant </span> </div>
+             <div id="location"> 
+                <img class="pin" src="/icons/pin.png" alt="pin icon">
+                <span> Jeddah </span></div>
+                <span class="company"> Saudi Airlines</span>
+                <div>
+                    <img class="clock" src="/icons/clock.png" alt="clock photo">
+                    <span> Full time </span>
+                </div>
+                <div class="details"> 
+                        <p class="viewDetails" >view details</p>
+                </div>
+        </div>
+        <!-- third job -->
+        <div class="rectangle" >
+            <div>
+            <img class="circle" src="/icons/smartphone1.png" alt="smartphone photo"> 
+            <span class="title" >Application developer</span> </div>
+            <div id="location"> 
+                <img class="pin" src="/icons/pin.png" alt="pin icon">
+                <span> Tabuk </span></div>
+                <span class="company"> horizon Technologies </span>
+                <div>
+                    <img class="clock" src="/icons/clock.png" alt="clock photo">
+                    <span> Full time </span>
+                </div>
+                <div class="details"> 
+                    <p class="viewDetails" >view details</p>
+            </div>
+                
+
+        </div>
+
+
+        <!-- end of search results -->
+
+
+        <!-- Search Filters -->
+        <div id="searchFiltersContainer">
+            <div id="searchFilters"> 
+                <p id="searchfilterstext" > Search Filters </p>
+
+                <!-- city filter -->
+                <select  aria-placeholder="City" id="city">
+                  <option value="City">city</option>
+                  <option value="Riyadh">Riyadh</option>
+                  <option value="Jeddah">Jeddah</option>
+                  <option value="Dammam">Dammam</option>
+                  <option value="Tabuk">Tabuk</option>
+                </select>
+                <!-- major filter -->
+                <select  aria-placeholder="Major" id="major">
+                    <option value="Major">major</option>
+                    <option value="Finance">Finance</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Accounting">Accounting</option>
+                    <option value="Computer Scince">Computer Scince</option>
+                  </select>
+                  <!-- position filter -->
+                  <select  aria-placeholder="Position" id="position">
+                    <option value="position">position</option>
+                    <option value="Financal Analyst">Financal Analyst</option>
+                    <option value="Web developer">Web developer</option>
+                    <option value="Project manager">Project manager</option>
+                    <option value="Quality engineer">Quality engineer</option>
+                  </select>
+                  <!-- radio buttons -->
+                  <input type="radio" checked id="fulltime" name="type" value="Full time">
+                  <label id="fullTimeLabel" for="fulltime">Full time</label><br>
+                  <input type="radio" id="parttime" name="type" value="Part time">
+                  <label id="partTimeLabel" for="parttime">Part time</label><br>
+            </div>
+
+        </div>
+    </div>
+    <!-- end of search filters -->
+    </body>
+    
+</html>

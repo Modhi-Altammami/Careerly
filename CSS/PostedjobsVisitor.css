@@ -1,0 +1,206 @@
+
+
+    body{
+
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height:100%;
+        background-color: white;
+        font-family:'Noto Sans JP', sans-serif;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-image:url("/icons/work\ 2.png") ;}
+/* Navigation Bar */
+/* Navigation Bar */
+#container{
+  width: 60%;
+  height: 115px;
+  background-color: #BED3E4;
+  border-bottom-right-radius: 50px;
+  /* position: fixed; */
+  /* border: 1px solid black; */
+
+}
+
+#navContainer{
+  width: 98%;
+  height: 100px;
+  background-color: #5E85A6;
+  border-bottom-right-radius: 40px;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+#logo{
+  height: 68px;
+  width: 78px;
+  /* border: 1px solid black; */
+  margin-left: 10px;
+}
+
+#logoName{
+  display: inline;
+  color: white;
+  margin-left: 10px;
+  font-size: 35px;
+  font-weight: bold;
+  text-decoration: none;
+  /* border: 1px solid black; */
+}
+
+#navLinks{
+  list-style-type: none;
+  /* border: 1px solid black; */
+  margin-left: 30px;
+}
+
+#navLinks li{
+  display: inline;
+}
+
+#navLinks li a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#navLinks li a:hover{
+  background-color: #BED3E4;
+  border-radius: 15px;
+}
+
+#joinUs{
+  background-color: #FF4958;
+  border-radius: 15px;
+}
+
+/* End of Navigation Bar */
+
+
+h1{/*the layout for all the h1 element in the page */
+
+ 
+    width: 314px;
+    height: 32px;
+  margin-left: 560px;
+  margin-top: 50px;
+
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    
+    color: #474668;}
+    hr{/*the layout for all the hr element in the page */
+    
+        width: 678px;
+        height:0.001px;
+        margin-left:365px;
+        margin-top: 2%;
+        
+        border: 1px solid rgba(23, 53, 94, 0.5);
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+    .im{
+      position: relative;
+      width: 25px;
+      margin-right:15px;
+      margin-left: 2px;
+      margin-top: 2px;
+      bottom: -1ex;
+    }
+    #all{/*the layout for all the  element inside all div */
+        width: 1150px;
+        height:100%;
+        margin-left: 160px;
+      margin-right: 10%;
+      margin-top: 30px;
+       margin-bottom: 10%;
+       font-size: 14px;
+        background: #5E85A6;
+        border-radius: 60px;
+        display: flex;
+
+    }
+    .first{/*the layout for all the elements inside the first class */
+      margin-top: 3%; 
+      margin-left: 5%;
+      margin-bottom: 3%;
+     
+    }
+    .first ul ul {/*the layout for ul(list) elements inside the ul in the first class */
+  
+    padding-top: 40px;
+    line-height: 30px;
+   
+    width: 210px;
+    height: 200px;
+    background: #ECF5F6;
+    border: 1px solid #000000;
+    border-radius: 23px;
+    color: #000000;
+    list-style: none;
+    margin-top: 5%; 
+    }
+    .first a{/*the layout for all ancer inside first class*/
+        color: #000000;
+        text-decoration: underline;
+        margin-left: 40%;}
+     .second{/*the layout for all the elements inside the second class */
+        margin-top: 3%; 
+        margin-left: 5%;
+        margin-bottom: 3%;
+       
+      }
+      .second ul ul {/*the layout for ul(list) elements inside the ul in the second class */
+    
+      padding-top: 40px;
+      line-height: 30px;
+     
+      width: 210px;
+      height: 200px;
+      background: #ECF5F6;
+      border: 1px solid #000000;
+      border-radius: 23px;
+      color: #000000;
+      list-style: none;
+      margin-top: 5%; 
+      }
+      .second a{/*the layout for all ancer inside second class*/
+        color: #000000;
+        text-decoration: underline;
+        margin-left: 40%;}
+      .third{/*the layout for all the elements inside the third class */
+        margin-top: 3%; 
+        margin-left: 5%;
+        margin-bottom: 3%;
+       
+      }
+      .third ul ul {/*the layout for ul(list) elements inside the ul in the third class */
+    
+      padding-top: 40px;
+      line-height: 30px;
+      list-style: none;
+      width: 210px;
+      height: 200px;
+      background: #ECF5F6;
+      border: 1px solid #000000;
+      border-radius: 23px;
+      color: #000000;
+   
+      margin-top: 5%; 
+      }
+      .third a{/*the layout for all ancer inside third class*/
+        color: #000000;
+        text-decoration: underline;
+         margin-left: 40%;
+      }

@@ -1,0 +1,97 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">   
+        <title>Manage Profile</title>
+        <link rel="StyleSheet" type="text/css" href="/CSS/JobSeekerProfile.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">   
+    </head>
+
+    <body>
+        <!--Header-->
+        <div id="container">
+          <div id="navContainer">
+              <img id="logo" src="/icons/logo.png" alt="logo">
+              <a href="/HTML/JobseekerHomePage.html" id="logoName">Careerly</a>
+              <ul id="navLinks">
+                  <!-- <li><a href="/HTML/JobseekerHomePage.html">Home</a></li> -->
+                  <li><a href="/HTML/JobSeekerAppliedJobs.html">Applied Jobs</a></li>
+                  <li><a href="/HTML/AdvicesJobSeeker.html">Advices</a></li>
+                  <li><a href="/HTML/PostedJobsJobSeeker.html">Posted Jobs</a></li>
+                  <li><a href="/HTML/searchJobSeeker.html">Search</a></li>
+                  <li><a href="/HTML/Home.html" id="SignOut">Sign out</a></li> <!--The button-->
+              </ul>
+          </div>
+          <a href="/HTML/JobseekerProfile.html"><img id="Profile" src="/icons/profile.png" alt="Icon"></a> 
+      </div>
+
+        <div  id="AllBlock">
+
+             <div>
+             <img id="Icon" src="/icons/WomanAvatar3.png" alt="Icon">
+             <button id="EditIcon">Edit Icon</button>
+             <span id="PrivateAcc">Set Account To Private:</span>
+             <input id="Toggle" type="checkbox" value="Private">
+             <p id="WarningAcc">This will make show your information to people you follow</p>
+             <button id="DeleteProfile">Delete profile</button>
+             <p id="Warning">Deleting Profile will remove all previous Information</p>
+             </div>
+
+             <form id="InfoBlock" method="POST" action="#">
+                <p>Biography</p>
+                <hr class="ProfileLine">
+                   <div id="InfoBlock1">
+                     <span >First name: </span>
+                     <input type="text" value="Modhi " >
+                     <span >Last Name:</span>
+                     <input type="text" value="Altammami" class="InputField">
+                     <span id="Email">Email:</span>
+                     <input type="text" value="Modhi@gmail.com" >
+                     <span id="Pnumber">Phone number:</span>
+                     <input type="text" value="1233930830" class="InputField">
+                     <span id="Bdate" >Birthdate: </span>
+                     <input type="date"  >
+                     <span id="Gender">Gender:</span>
+                     <input type="text" value="Female" >
+                     <span id="Nationality">Nationality:</span>
+                     <input type="text" value="Saudi" >
+                     <span id="city">city:</span>
+                     <input type="text" value="Riyadh" >
+                     <span id="Cjob">current job:</span>
+                     <input type="text" value="student" >
+                     <span id="Major">Major:</span>
+                     <input type="text" value="Software engineering" >
+                     <span id="Experience">Experience:</span>
+                     <input type="text" value="Web development" >
+                     <span id="Skills">Skills:</span>
+                     <input type="text" value="Teamwork" >
+                   </div>
+                   
+                   
+                   
+              
+                  <p>Password</p>
+                   <hr class="ProfileLine">
+
+                  <div id="ChangePassword">
+                    <span >Old Password:</span>
+                    <input type="password" id="Oldpass" name="password"
+                    minlength="8"  >
+                    <span >Old Password:</span>
+                    <input type="password" id="Newpass" name="password"
+                    minlength="8" >
+                  </div>
+               
+                  <input type="reset" class="Buttons" value="Reset"> 
+                  <input type="submit" class="Buttons" value="Save">
+             </form>
+
+        </div>
+ 
+
+       <!--End Header-->
+
+
+
+</html>

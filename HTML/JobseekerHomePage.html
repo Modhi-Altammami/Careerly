@@ -1,0 +1,158 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home page</title>
+    <link rel="StyleSheet" type="text/css" href="/CSS/JobSeekerHomePage.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!--Header-->
+    <div id="container">
+        <div id="navContainer">
+            <img id="logo" src="/icons/logo.png" alt="logo">
+            <a href="/HTML/index.html" id="logoName">Careerly</a>
+            <ul id="navLinks">
+                <!-- <li><a href="/HTML/JobseekerHomePage.html">Home</a></li> -->
+                <li><a href="/HTML/JobSeekerAppliedJobs.html">Applied Jobs</a></li>
+                <li><a href="/HTML/AdvicesJobSeeker.html">Advices</a></li>
+                <li><a href="/HTML/PostedJobsJobSeeker.html">Posted Jobs</a></li>
+                <li><a href="/HTML/searchJobSeeker.html">Search</a></li>
+                <li><a href="/HTML/Home.html" id="SignOut">Sign out</a></li>
+                <!--The button-->
+            </ul>
+        </div>
+        <a href="/HTML/JobseekerProfile.html"><img id="Profile" src="/icons/profile.png" alt="Icon"></a>
+    </div>
+
+    <h1 id="Welcome">WELCOME MODHI ALTAMMAMI</h1>
+
+    <div id="ALLBLOCKS">
+        <!--Posted Jobs Feed-->
+        <div id="FirstBlock">
+            <div id="Feed">
+                <span id="LatestJobs">Added Recently</span>
+                <span class="Viewall"><a href="/HTML/PostedJobsJobSeeker.html">+ View All Jobs </a> </span>
+            </div>
+            <div>
+                <hr id="JobLine">
+            </div>
+            <!--Blocks-->
+            <div id="PostedJobsBlock">
+                <div>
+                    <img class="Avatar" src="/icons/SWE.png" alt="Avatar">
+                    <span class="JobName">Software Analyst</span>
+
+                    <p class="Align">
+                        <img class="icons" src="/icons/placeholder.png" alt="Place">
+                        <span>riyadh</span>
+                    </p>
+                    <p class="Align">
+                        <img class="icons" src="/icons/clock.png" alt="clock">
+                        <span>Full time</span>
+                        <span> <a class="checkdetails" href="/HTML/JobDetailsJobSeeker.html"> check details</a> </span>
+                    </p>
+                </div>
+                <div>
+                    <img class="Avatar" src="/icons/database.png" alt="Avatar">
+                    <span class="JobName">Database Admin</span>
+                    <p class="Align">
+                        <img class="icons" src="/icons/placeholder.png" alt="Place">
+                        <span>riyadh</span>
+                    </p>
+                    <p class="Align">
+                        <img class="icons" src="/icons/clock.png" alt="clock">
+                        <span>Full time</span>
+                        <span> <a class="checkdetails" href="/HTML/JobDetailsJobSeeker.html"> check details</a></span>
+                    </p>
+
+                </div>
+                <div>
+                    <img class="Avatar" src="/icons/SWE.png" alt="Avatar">
+                    <span class="JobName">UX/UI Designer</span>
+
+                    <p class="Align">
+                        <img class="icons" src="/icons/placeholder.png" alt="Place">
+                        <span>riyadh</span>
+                    </p>
+                    <p class="Align">
+                        <img class="icons" src="/icons/clock.png" alt="clock">
+                        <span>Full time</span>
+                        <span><a class="checkdetails" href="/HTML/JobDetailsJobSeeker.html"> check details</a></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--End Posted Jobs Feed-->
+
+        <!--Second Block- what's New and Advice Feed-->
+        <div id="SecondBlock">
+            <!--Notification-->
+            <span id="Notification">What's New</span>
+            <hr class="SecondBlockLines">
+
+            <div id="NotifsBlock">
+                <div class="JobDisc">
+                    <img class="Avatar" src="/icons/SWE.png" alt="Avatar">
+                    <span>The job Application request has been responded</span>
+                    <a href="/HTML/JobSeekerAppliedJobs.html" class="CheckDetails">Check Details</a>
+                </div>
+
+                <div class="JobDisc">
+                    <img class="Avatar" src="/icons/SWE.png" alt="Avatar">
+                    <span>Employer Has set Interview Appointments</span>
+                    <a href="/HTML/JobSeekerAppliedJobs.html" class="CheckDetails">Check Details</a>
+                </div>
+                <div class="JobDisc">
+                    <img class="Avatar" src="/icons/SWE.png" alt="Avatar">
+                    <span>Employer Has set Interview Appointments</span>
+                    <a href="/HTML/JobSeekerAppliedJobs.html" class="CheckDetails">Check Details</a>
+                </div>
+            </div>
+
+            <!--End notification-->
+            <!--Advice Feed-->
+
+            <span id="AdviceFeed"> Recent Advices</span>
+            <span class="ViewaMore"><a href="/HTML/AdvicesJobSeeker.html">+ View All Advices</a></span>
+            <hr class="SecondBlockLines">
+
+            <div id="AdviceBlock">
+                <div class="AdviceTxt">
+                    <img class="Avatar" src="/icons/AvatarIcon1.png" alt="Avatar">
+                    <span>If the career you have chosen has some unexpected inconvenience, 
+                        console yourself by reflecting that no career is without them</span>
+                    <p class="AdviceIcons">
+                        <img class="hvr-bounce-in" src="/icons/Like-green.png" alt="Like button" height="27" width="31">
+                        <span>12</span>
+                        <img class="hvr-bounce-in" src="/icons/DisLike-red.png" alt="Dislike button" height="27" width="31">
+                        <span>2</span>
+                    </p>
+                </div>
+
+                <div class="AdviceTxt">
+                    <img class="Avatar" src="/icons/ManIcon2.png" alt="Avatar">
+                    <span>Life’s too short to be stuck in a job you hate</span>
+                    <p class="AdviceIcons">
+                        <img class="hvr-bounce-in" src="/icons/Like-green.png" alt="Like button" height="27" width="31">
+                        <span>12</span>
+                        <img class="hvr-bounce-in" src="/icons/DisLike-red.png" alt="Dislike button" height="27" width="31">
+                        <span>2</span>
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+        <!--End Advice Feed-->
+        <!--End Second Block- what's New and Advice Feed-->
+    </div>
+
+</body>
+
+</html>

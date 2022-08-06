@@ -1,0 +1,283 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+/*The background image, I used psuedo class to adjust
+    the background image opacity without effecting the body
+    element */
+
+body::before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    content: ' ';
+    background-image: url("/icons/JobSeekerBackGround.jpg");
+    background-size: cover;
+    background-position-y: 500px;
+    background-repeat: repeat-y;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+#container {
+    width: 1300px;
+    height: 130px;
+    background: #BED3E4;
+    border-bottom-right-radius: 40px;
+    align-items: center;
+    display: flex;
+}
+
+#navContainer {
+    margin-top: -15px;
+    width: 1200px;
+    height: 115px;
+    background-color: #5E85A6;
+    border-bottom-right-radius: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 78px;
+    height: 68px;
+    margin-left: 21px;
+}
+
+#navLinks {
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+#navLinks li {
+    display: inline;
+}
+
+#logoName {
+    display: inline;
+    color: white;
+    margin-left: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#navLinks {
+    margin-left: auto;
+    margin-right: 18px;
+}
+
+#navLinks li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#navLinks li a:hover {
+    background-color: #BED3E4;
+    border-radius: 15px;
+}
+
+#SignOut {
+    background: #FF4958;
+    border-radius: 15px;
+}
+
+#Profile {
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#Profile:hover {
+    background-color: #a6d0f3;
+}
+
+#Welcome {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #5E85A6;
+}
+
+
+/*Posted Job header*/
+
+#JobLine {
+    display: flex;
+    width: 50%;
+    margin-left: 5px;
+}
+
+#LatestJobs {
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #5E85A6;
+}
+
+
+/*End Posted Jobs Header*/
+
+#Block {
+    display: flex;
+    /* border: 1px solid black; */
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+
+/*Posted Jobs Block*/
+
+#PostedJobsBlock {
+    display: flex;
+}
+
+#PostedJobsBlock div {
+    background-color: #F5F3F4;
+    margin-top: 20px;
+    width: 440px;
+    height: 529px;
+    border-radius: 30px;
+    margin-left: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* overflow-y: scroll; */
+}
+
+.Avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+    padding: 10px;
+    background-color: #C4C4C4;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.icons {
+    width: 24px;
+    height: 23px;
+}
+
+.ManAvatar {
+    width: 82px;
+    height: 76px;
+}
+
+
+/*Text*/
+
+.JobName {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -100px;
+    margin-left: 170px;
+}
+
+.Align {
+    margin-left: 35%;
+}
+
+.Accepted {
+    color: springgreen;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.Rejected {
+    color: rgb(255, 0, 0);
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.Pending {
+    color: rgb(163, 163, 163);
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.checkdetails {
+    text-decoration: underline;
+    color: black;
+    padding: 1px;
+    border-radius: 15px;
+    margin-left: 175px;
+    white-space: nowrap;
+}
+
+.checkdetails:hover {
+    color: rgb(136, 134, 134);
+}
+
+
+/*End text*/
+
+
+/*Job applicant appropriate interview appointment*/
+
+.Interview {
+    margin-left: 20px;
+}
+
+.Dates {
+    margin-left: 50px;
+}
+
+.ConfirmDate {
+    position: relative;
+    top: 35px;
+    left: 300px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #5E85A6;
+    color: white;
+}
+
+.RejectButton {
+    position: relative;
+    left: 40%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff0000;
+    color: white;
+}
+
+#RejectButtonWhenPending {
+    margin-top: 43%
+}
+
+#Feed {
+    margin-top: 2%;
+}
+
+
+/*end job applicant appropriate interview appointment*/
+
+
+/*End Posted Jobs Block*/

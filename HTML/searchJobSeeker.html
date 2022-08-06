@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            Search - job seeker
+        </title>
+        <link rel="stylesheet" type="text/css" href="/CSS/searchJobSeeker.css" >
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div>
+                    <!--Nav Bar-->
+                    <!--Header-->
+                    <div id="container">
+                        <div id="navContainer">
+                            <img id="logo" src="/icons/logo.png" alt="logo">
+                            <a href="/HTML/JobseekerHomePage.html" id="logoName">Careerly</a>
+                            <ul id="navLinks">
+                                <!-- <li><a href="/HTML/JobseekerHomePage.html">Home</a></li> -->
+                                <li><a href="/HTML/JobSeekerAppliedJobs.html">Applied Jobs</a></li>
+                                <li><a href="/HTML/AdvicesJobSeeker.html">Advices</a></li>
+                                <li><a href="/HTML/PostedJobsJobSeeker.html">Posted Jobs</a></li>
+                                <li><a href="/HTML/searchJobSeeker.html">Search</a></li>
+                                <li><a href="/HTML/Home.html" id="SignOut">Sign out</a></li> <!--The button-->
+                            </ul>
+                        </div>
+                        <a href="/HTML/JobseekerProfile.html"><img id="Profile" src="/icons/profile.png" alt="Icon"></a> 
+                    </div>
+        <!--End Of Nav Bar--> 
+
+        <!-- Search Filters -->
+        <div id="searchFiltersContainer">
+            <div id="searchFilters"> 
+                <p id="searchfilterstext" > Search Filters </p>
+
+                <!-- city filter -->
+                <select  aria-placeholder="City" id="city">
+                  <option value="City">city</option>
+                  <option value="Riyadh">Riyadh</option>
+                  <option value="Jeddah">Jeddah</option>
+                  <option value="Dammam">Dammam</option>
+                  <option value="Tabuk">Tabuk</option>
+                </select>
+                <!-- major filter -->
+                <select  aria-placeholder="Major" id="major">
+                    <option value="Major">major</option>
+                    <option value="Finance">Finance</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Accounting">Accounting</option>
+                    <option value="Computer Scince">Computer Scince</option>
+                  </select>
+                  <!-- position filter -->
+                  <select  aria-placeholder="Position" id="position">
+                    <option value="position">position</option>
+                    <option value="Financal Analyst">Financal Analyst</option>
+                    <option value="Web developer">Web developer</option>
+                    <option value="Project manager">Project manager</option>
+                    <option value="Quality engineer">Quality engineer</option>
+                  </select>
+                  <!-- radio buttons -->
+                  <input type="radio" id="fulltime" name="type" value="Full time">
+                  <label id="fullTimeLabel" for="fulltime">Full time</label><br>
+                  <input type="radio" id="parttime" name="type" value="Part time">
+                  <label id="partTimeLabel" for="parttime">Part time</label><br>
+
+                  <div id="searchButton">
+                    <a id="search" href="/HTML/searchJobSeekerAfter.html"> Search </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </body>
+    
+</html>

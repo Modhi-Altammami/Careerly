@@ -1,0 +1,225 @@
+/* Navigation Bar */
+#container{
+    width: 1300px;
+    height: 130px; 
+    background: #BED3E4;
+    border-bottom-right-radius: 40px;
+    align-items: center;
+    display: flex; }
+    
+    
+   #navContainer{
+       margin-top: -15px;
+       width: 1200px;
+       height: 115px;
+       background-color: #5E85A6;
+       border-bottom-right-radius: 40px;
+       display: flex;
+       align-items: center;
+     }
+   
+     #logo{
+        width: 78px;
+        height: 68px;
+        margin-left: 21px;
+     }
+   
+     #navLinks{
+       list-style-type: none;
+       margin-left: 30px;
+     }
+     #navLinks li{
+       display: inline;
+     }
+   
+   
+     #logoName{
+       display: inline;
+       color: white;
+       margin-left: 10px;
+       font-size: 35px;
+       font-weight: bold;
+       text-decoration: none;
+     }
+     
+     #navLinks{
+       margin-left: auto;
+       margin-right: 18px;
+     }
+   
+   
+   
+     #navLinks li a{
+       text-decoration: none;
+       color: white;
+       font-size: 18px;
+       font-weight: bold;
+       padding-left: 15px;
+       padding-right: 15px;
+       padding-top: 15px; 
+       padding-bottom: 15px;
+       margin-left: 10px;
+       margin-right: 10px;
+   }
+   
+     #navLinks li a:hover{
+       background-color: #BED3E4;
+       border-radius: 15px;
+     }
+   
+      #SignOut{
+       background: #FF4958;
+       border-radius: 15px;
+      }
+   
+      #Profile{
+       margin-left: 10px;
+       width: 50px;
+       height: 50px;
+       padding: 15px;
+       border-radius: 15px;
+      }  
+      
+      #Profile:hover{
+        background-color: #a6d0f3;
+        
+      }
+  
+
+/* End of Navigation Bar */
+
+/* Begining of Advices feed */
+
+/* Advices title */
+h1{
+    display: flex;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 650px;
+    padding: 0px;
+    white-space: nowrap;
+}
+
+body{
+   /* background from https://www.freepik.com/free-vector/modern-web-banner-with-diagonal-lines-background_6080519.htm#page=1&query=website%20background%20&position=3 */
+    background-image: url(/icons/AdvicesBackground.jpg);
+    background-color: powderblue;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+    color: #474668;
+    font-family: 'Noto Sans JP', sans-serif;  /* from google fonts */
+}
+
+#BlueRectangle{ 
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 1150px;
+    height: 1500px;
+    margin-left: 10%;
+    padding: 1%;
+    top: 10%;
+    background: #5E85A6;
+    border-radius: 60px 60px 0px 0px;
+}
+/* White Rectangle that contains the advices */
+.WhiteRectangle{
+    flex: 1 1 0px;
+    margin: 7px;
+    padding: 7px;
+    background-color: #F7F7F7;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+   
+}
+/* Like and dislike buttons  */
+.like_dislike_buttons{
+    float: right;
+    position: relative;
+    right: 50px;
+    bottom: 20px;
+    margin: 10px;
+}
+/* impoeted hover effect from https://ianlunn.github.io/Hover/ */
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+/* Delete button */
+.delete_button{
+    background-image: url(delete.png);
+    background-repeat: no-repeat;
+    border: none;
+    position: relative;
+    left: 1030px;
+    bottom: 50px;
+    width: 16px;
+    height: 16px;
+    margin: 0px; padding: 0px;
+}
+/* Company's name */
+div h4{
+    font-size: 20px;
+    padding-left: 90px;
+    margin-left: 7px;
+    margin-bottom: 10px;
+   
+}
+/* company logo */
+.company_img{
+  position: relative;
+  float: left;
+  bottom: 60px;
+  left: 40px;
+}
+/* Advice content */
+div div p{
+    text-indent: 10px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 70px;
+    padding-right: 30px;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+}
+/* Show more button */
+#Show_More_Button{
+    position: relative;
+    width: 120px;
+    height: 45px;
+    left: 45%;
+    padding: 15px;
+    margin: 10px;
+    font-size: 13px;
+    color: #F7F7F7;
+    font-weight: bolder;
+    background-color: #FF4958;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    border: none;
+}
+/* show more hover */
+#Show_More_Button:hover{
+    background-color: #ce3c48;
+    border-radius: 15px;
+    text-decoration: underline;
+}
+
+/* End of Advices feed */

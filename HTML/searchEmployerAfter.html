@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Search - employer
+        </title>
+        <link rel="stylesheet" type="text/css" href="/CSS/searchEmployerAfter.css" >
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div>
+                    <!--Nav Bar-->
+                    <!--Header-->
+                    <div id="container">
+                        <div id="navContainer">
+                            <img id="logo" src="/icons/logo.png" alt="logo">
+                            <a href="/HTML/EmployerHomePage.html" id="logoName">Careerly</a>
+                            <ul id="navLinks">
+                                <li><a href="/HTML/EmployerHomePage.html">Home</a></li>
+                                <li><a href="/HTML/AdvicesEmployer.html"> My Advices</a></li>
+                                <li><a href="/HTML/EmployerPostedJobs.html">Posted Jobs</a></li>
+                                <li><a href="/HTML/searchEmployer.html">Search</a></li>
+                                <li><a href="/HTML/Home.html" id="SignOut">Sign out</a></li> <!--The button-->
+                            </ul>
+                        </div>
+                        <a href="/HTML/EmployerProfile.html"><img id="Profile" src="/icons/profile.png" alt="Icon"></a> 
+                    </div>
+        <!--End Of Nav Bar--> 
+
+
+                <!-- search results -->
+    <div id="jobs">
+        <!-- first job -->
+        <div class="rectangle" >
+            <div>
+                <img class="circle" src="/icons/woman.png" alt="telephone photo"> 
+                <span class="title" > Sarah M. </span>  
+            </div>
+            <div id="location"> 
+                <img class="pin" src="/icons/pin.png" alt="pin icon">
+                <span> Riyadh </span></div>
+                <span class="company"> Human Resources Specialist </span>
+                <div>
+                <span class="company"> Infrastructure Company (BINYAH) </span>
+                </div>
+            <div class="details"> 
+                <p class="viewDetails" >view details</p>
+            </div>
+        </div>
+        <!-- second job -->
+        <div class="rectangle" >
+            <div>
+             <img class="circle" src="/icons/man.png" alt="airplane photo"> 
+             <span class="title" > Ahmed S. </span> </div>
+             <div id="location"> 
+                <img class="pin" src="/icons/pin.png" alt="pin icon">
+                <span> Jeddah </span></div>
+                <span class="company"> General Manager </span>
+                <div>
+                    <span class="company"> ANA group </span>
+                </div>
+                <div class="details"> 
+                        <p class="viewDetails" >view details</p>
+                </div>
+        </div>
+        <!-- third job -->
+        <div class="rectangle" >
+            <div>
+            <img class="circle" src="/icons/woman.png" alt="smartphone photo"> 
+            <span class="title" > Hadeel R. </span> </div>
+            <div id="location"> 
+                <img class="pin" src="/icons/pin.png" alt="pin icon">
+                <span> Tabuk </span></div>
+                <span class="company"> Trainee lawyer/Legal adviser  </span>
+                <div>
+                    <span class="company"> MATARAT Holding </span>
+                </div>
+                <div class="details"> 
+                    <p class="viewDetails" >view details</p>
+            </div>
+                
+    
+        </div>
+    </div>
+
+
+
+    <!-- end of search results -->
+
+        <!-- Search Filters -->
+        <div id="searchFiltersContainer">
+            <div id="searchFilters"> 
+                <p id="searchfilterstext" > Search Filters </p>
+
+                <!-- city filter -->
+                <select  aria-placeholder="nationality" id="nationality">
+                  <option value="nationality">nationality</option>
+                  <option value="Saudi">Saudi</option>
+                  <option value="Emarati">Emarati</option>
+                  <option value="Lebanese">Lebanese</option>
+                  <option value="Indian">Indian</option>
+                </select>
+                <!-- major filter -->
+                <select  aria-placeholder="Major" id="major">
+                    <option value="Major">major</option>
+                    <option value="Finance">Finance</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Accounting">Accounting</option>
+                    <option value="Computer Scince">Computer Scince</option>
+                  </select>
+                  <!-- position filter -->
+                  <select  aria-placeholder="skill" id="skill">
+                    <option value="skill">skill</option>
+                    <option value="Excel sheets">Excel sheets</option>
+                    <option value="Java Script">Java Script</option>
+                    <option value="Project management">Project management</option>
+                    <option value="Leadership">Leadership</option>
+                  </select>
+                  <!-- radio buttons -->
+                  <input type="radio" id="female" name="type" value="female">
+                  <label id="femaleLabel" for="female">female</label><br>
+                  <input type="radio" id="male" name="type" value="male">
+                  <label id="maleLabel" for="male">male</label><br>
+            </div>
+
+        </div>
+    </div>
+    </body>
+    
+</html>

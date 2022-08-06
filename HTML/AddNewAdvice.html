@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Add New Advice</title>
+    <link rel="StyleSheet" type="text/css" href="/CSS/AddNewAdvice.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Header-->
+    <div id="container">
+        <div id="navContainer">
+            <img id="logo" src="/icons/logo.png" alt="logo">
+            <a href="/HTML/EmployerHomePage.html" id="logoName">Careerly</a>
+            <ul id="navLinks">
+                <li><a href="/HTML/EmployerHomePage.html">Home</a></li>
+                <li><a href="/HTML/AdvicesEmployer.html"> My Advices</a></li>
+                <li><a href="/HTML/EmployerPostedJobs.html">Posted Jobs</a></li>
+                <li><a href="/HTML/searchEmployer.html">Search</a></li>
+                <li><a href="/HTML/Home.html" id="SignOut">Sign out</a></li>
+                <!--The button-->
+            </ul>
+        </div>
+        <a href="/HTML/EmployerProfile.html"><img id="Profile" src="/icons/profile.png" alt="Icon"></a>
+    </div>
+
+    <div id="Feed">
+        <span id="AddNewAdvice">Add New Advice</span>
+    </div>
+    <div>
+        <hr id="Line">
+    </div>
+
+
+    <form id="AdviceBlock" method="POST" action="#">
+        <textarea id="AdviceArea" placeholder="Write a meaningful Advice..." maxlength="120"></textarea>
+        <p><a href="/HTML/EmployerHomePage.html" id="PublishButton"> Publish Advice</a></p>
+    </form>
+
+</body>
+
+</html>

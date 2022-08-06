@@ -1,0 +1,223 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    font-family:'Noto Sans JP', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:url("/icons/work\ 2.png") ;/* the bic in the backround*/
+}/*the start of the layout of the nav bar*/
+#container{
+    width: 1300px;
+    height: 130px; 
+    background: #BED3E4;
+    border-bottom-right-radius: 40px;
+    align-items: center;
+    display: flex; }
+    
+    
+   #navContainer{
+       margin-top: -15px;
+       width: 1200px;
+       height: 115px;
+       background-color: #5E85A6;
+       border-bottom-right-radius: 40px;
+       display: flex;
+       align-items: center;
+     }
+   
+     #logo{
+        width: 78px;
+        height: 68px;
+        margin-left: 21px;
+     }
+   
+     #navLinks{
+       list-style-type: none;
+       margin-left: 30px;
+     }
+     #navLinks li{
+       display: inline;
+     }
+   
+   
+     #logoName{
+       display: inline;
+       color: white;
+       margin-left: 10px;
+       font-size: 35px;
+       font-weight: bold;
+       text-decoration: none;
+     }
+     
+     #navLinks{
+       margin-left: auto;
+       margin-right: 18px;
+     }
+   
+   
+   
+     #navLinks li a{
+       text-decoration: none;
+       color: white;
+       font-size: 18px;
+       font-weight: bold;
+       padding-left: 15px;
+       padding-right: 15px;
+       padding-top: 15px; 
+       padding-bottom: 15px;
+       margin-left: 10px;
+       margin-right: 10px;
+   }
+   
+     #navLinks li a:hover{
+       background-color: #BED3E4;
+       border-radius: 15px;
+     }
+   
+      #SignOut{
+       background: #FF4958;
+       border-radius: 15px;
+      }
+   
+      #Profile{
+       margin-left: 10px;
+       width: 50px;
+       height: 50px;
+       padding: 15px;
+       border-radius: 15px;
+      }  
+      
+      #Profile:hover{
+        background-color: #a6d0f3;
+        
+      }
+      /*the end of the layout of the nav bar*/
+      #img{/*the layout of the profile pic*/
+        
+        width: 170px;
+         height: 170px; 
+         margin-top: 5%;
+           margin-left: 5%;
+           border: 2px solid black;
+           border-radius: 110px;
+           float: left;
+          
+
+       }
+      /*the layout of the border that contain all the elements*/
+       #site{
+        width: 1250px;
+
+font-weight: bold;
+        border-style:  solid;
+        border-color: #4D6B85;
+        background: #FFFFFF ;
+        border-radius: 53px;
+        margin-top: 120px;
+        margin-bottom: 10%;
+        margin-left: 80px;
+        margin-right: 5%;
+       }
+       h1{/*the layout of the h1 element*/
+        width:50%;
+        height: 30px;
+        margin-top: 7%;
+        margin-left: 7%;
+       
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        color: #4D6B85;
+       }
+       hr{/*the layout of the hr element*/
+    
+        width:70%;
+        height:0.001px;
+      margin-left: 6.5%;
+      margin-top: 1%;
+     
+      margin-right: 6.5%;
+        border: 1px solid rgba(23, 53, 94, 0.5);
+        transform: matrix(1, 0, 0, -1, 0, 0);
+    }
+      
+     /*the layout of the all div*/
+     #all{
+         display:flex;
+     }
+       #first { /*the layout of the first div*/
+        
+      
+        margin-left: 5%;
+      
+        
+        
+      
+        font-size: 17px;
+        line-height: 30px;
+      
+        word-spacing: 10px;
+        color: #8B8787;
+
+       }
+     
+      
+     
+       #second{/*the layout of the second div*/
+        
+      margin-left: 15%;
+        margin-top: 0%;
+      
+        
+      
+        font-size: 17px;
+        line-height: 30px;
+      
+        word-spacing: 10px;
+        color: #8B8787;
+
+       }
+       
+       
+       
+       
+       
+       #button a{/*the layout of all the (a) in the button div*/
+ width: 70px;
+    color: white;
+    background: #FF4958;
+   font-size: 15px;
+     margin-bottom: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    Display: inline-block;
+  font-weight: bold;
+  
+ }
+              #Accept{ /*the layout of the accept ancer*/
+               
+                margin-left: 2%;
+              border-radius: 17px;
+            
+              
+           }
+           #Reject{/*the layout of the reject ancer*/
+             
+              border-radius: 17px;
+              
+           }
+           #Contact{/*the layout of the contact ancer*/
+              
+            border-radius: 17px;
+              
+           }
+           
+      
+    

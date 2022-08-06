@@ -1,0 +1,346 @@
+  body {
+      margin: 0px;
+      padding: 0px;
+      font-family: 'Noto Sans JP', sans-serif;
+      background: url(/icons/Jobseeker.jpg);
+      background-size: 2000px;
+      background-repeat: no-repeat;
+  }
+  
+  #container {
+      width: 1300px;
+      height: 130px;
+      background: #BED3E4;
+      border-bottom-right-radius: 40px;
+      align-items: center;
+      display: flex;
+  }
+  
+  #navContainer {
+      margin-top: -15px;
+      width: 1200px;
+      height: 115px;
+      background-color: #5E85A6;
+      border-bottom-right-radius: 40px;
+      display: flex;
+      align-items: center;
+  }
+  
+  #logo {
+      width: 78px;
+      height: 68px;
+      margin-left: 21px;
+  }
+  
+  #navLinks {
+      list-style-type: none;
+      margin-left: 30px;
+  }
+  
+  #navLinks li {
+      display: inline;
+  }
+  
+  #logoName {
+      display: inline;
+      color: white;
+      margin-left: 10px;
+      font-size: 35px;
+      font-weight: bold;
+      text-decoration: none;
+  }
+  
+  #navLinks {
+      margin-left: auto;
+      margin-right: 18px;
+  }
+  
+  #navLinks li a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  
+  #navLinks li a:hover {
+      background-color: #BED3E4;
+      border-radius: 15px;
+  }
+  
+  #SignOut {
+      background: #FF4958;
+      border-radius: 15px;
+  }
+  
+  #Profile {
+      margin-left: 10px;
+      width: 50px;
+      height: 50px;
+      padding: 15px;
+      border-radius: 30px;
+  }
+  
+  #Profile:hover {
+      background-color: #5988af;
+  }
+  /* Nav is done*/
+  
+  #Welcome {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 42px;
+      color: #5E85A6;
+      margin-left: 20px;
+  }
+  
+  #ALLBLOCKS {
+      display: flex;
+  }
+  /*Second Block*/
+  
+  #SecondBlock {
+      margin-left: 5%;
+  }
+  
+  #Notification {
+      margin-left: 30%;
+      color: #5E85A6;
+  }
+  
+  #PostedJob {
+      margin-left: 30%;
+      color: #5E85A6;
+  }
+  
+  #NotifsBlock {
+      height: 240px;
+      width: 600px;
+      margin-left: 10%;
+      overflow: scroll;
+      overflow-x: hidden;
+  }
+  
+  #NotifsBlock div {
+      position: relative;
+      width: 400px;
+      height: 110px;
+      background-color: #F5F3F4;
+      border-radius: 30px;
+      margin-bottom: 10px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-size: 14px;
+      margin-left: 100px;
+  }
+  
+  #NotifsBlock p {
+      margin-left: 20%;
+      margin-top: -50px;
+  }
+  
+  .checkdetails {
+      text-decoration: none;
+      color: white;
+      background-color: #FF4958;
+      padding: 8px;
+      border-radius: 15px;
+      margin-left: 70%;
+  }
+  
+  .checkdetails:hover {
+      background-color: #BED3E4;
+  }
+  /*End Second Block*/
+  /*Advice*/
+  
+  #Advice {
+      margin-left: 20px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+      color: #5E85A6;
+  }
+  
+  #Add {
+      margin-left: 350px;
+      margin-top: 15px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+  }
+  
+  #Add a {
+      text-decoration: none;
+      color: black;
+      padding: 5px;
+      border-radius: 15px;
+  }
+  
+  #Add a:hover {
+      color: white;
+      background-color: #5E85A6;
+  }
+  
+  .ViewMore {
+      line-height: 50px;
+      text-decoration: none;
+      color: #747272;
+      padding: 5px;
+      border-radius: 15px;
+      margin-left: 40%;
+  }
+  
+  .ViewMore:hover {
+      color: white;
+      background-color: #5E85A6;
+  }
+  /*The underline*/
+  
+  #AdviceLine {
+      display: flex;
+      width: 100%;
+      margin-left: 5px;
+  }
+  
+  #WhatNewLine {
+      width: 70%;
+      margin-left: 30%;
+  }
+  
+  #PostedJobsLine {
+      width: 70%;
+      margin-left: 30%;
+  }
+  /*First Block Advice Block*/
+  
+  #AdviceBlock div {
+      background-color: #F5F3F4;
+      border-radius: 30px;
+      width: 650px;
+      height: 150px;
+      margin-bottom: -10px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      margin-left: 20px;
+  }
+  
+  #AdviceBlock p {
+      margin-left: 20px;
+  }
+  
+  .AdviceP {
+      margin-left: 10px;
+  }
+  
+  .delete_button {
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      -webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      background-image: url(/icons/delete.png);
+      background-repeat: no-repeat;
+      border: none;
+      float: right;
+      position: relative;
+      right: 30px;
+      width: 24px;
+      height: 24px;
+      bottom: -10px;
+  }
+  
+  .delete_button:hover {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+      transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+  
+  .like {
+      width: 30px;
+      height: 30px;
+      margin-left: 480px;
+      filter: grayscale(100%);
+  }
+  
+  .dislike {
+      width: 30px;
+      height: 30px;
+      margin-left: 5px;
+      filter: grayscale(100%);
+  }
+  /*Posted Job block*/
+  
+  #PostedJobBlock {
+      display: flex;
+      margin-left: 30%;
+  }
+  
+  #PostedJobBlock div {
+      text-align: center;
+      width: 175px;
+      height: 250px;
+      background-color: #F5F3F4;
+      border-radius: 20px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-size: 14px;
+      align-self: center;
+      margin-left: 10px;
+  }
+  
+  .job {
+      width: 53px;
+      height: 52px;
+      border-radius: 200px;
+      padding: 10px;
+      background-color: #C4C4C4;
+  }
+  
+  .clock {
+      width: 24px;
+      height: 23px;
+  }
+  
+  .placeholder {
+      width: 24px;
+      height: 23px;
+  }
+  
+  .EditJob {
+      text-decoration: underline;
+      color: #747272;
+      padding: 5px;
+      border-radius: 15px;
+  }
+  
+  #EditJob:hover {
+      color: white;
+      background-color: #94a7b6;
+  }
+  /*View All jobs/ view All notification*/
+  
+  .Viewall a {
+      text-decoration: none;
+      margin-left: 90px;
+      color: black;
+      line-height: 50px;
+      padding: 5px;
+      border-radius: 15px;
+      font-size: 14px;
+  }
+  
+  .Viewall a:hover {
+      color: white;
+      background-color: #5E85A6;
+  }
+  
+  .Avatars {
+      width: 82px;
+      height: 76px;
+  }

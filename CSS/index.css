@@ -1,0 +1,27 @@
+#rolesContainer{
+    width: 80%;
+    height: 60%;
+    margin-left: 10%;
+    margin-top: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.role{
+    font-size: 45px;
+    margin: 23px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    background-color: #5E85A6;
+    color: white;
+    border-radius: 20px;
+}
+
+body{
+    font-family:'Noto Sans JP', sans-serif;
+}
